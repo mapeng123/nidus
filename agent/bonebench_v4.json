@@ -1,0 +1,3962 @@
+[
+ {
+  "id": "T7a-049",
+  "type": "drug_library",
+  "task": "Is the compound TEDATIOXETINE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-079",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does JAG2 signal to NOTCH1? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=JAG2",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-178",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): SFRP4 or HMGCLL1?",
+  "gold": "SFRP4",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-075",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does WNT2B signal to SFRP2? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=WNT2B",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-038",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out MRPS21 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-078",
+  "type": "strategy_workflow",
+  "task": "In one sentence: A KO experiment returns delta ~ 0. List two possible reasons.",
+  "gold": "gene not expressed in that cell type / model lower bound for rare lineage",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-055",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out BICC1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-040",
+  "type": "drug_library",
+  "task": "Is the compound GUANABENZ ACETATE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-040",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RPL30 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-024",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Denosumab × Macrophage' or 'Bisphosphonate × MSC'?",
+  "gold": "Bisphosphonate × MSC",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-175",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): CDK15 or RPLP2?",
+  "gold": "CDK15",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-303",
+  "type": "classic_mechanism",
+  "task": "TRAP/ACP5 is a marker of which cell?",
+  "gold": "osteoclast",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-142",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PHF2 or CCDC91?",
+  "gold": "PHF2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-025",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Osteoclast' or 'AML × CMP'?",
+  "gold": "Bisphosphonate × Osteoclast",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-064",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out WNT4 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-101",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out MRPS21 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-198",
+  "type": "invivo_consistency",
+  "task": "For HECW2, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-295",
+  "type": "classic_mechanism",
+  "task": "Which vitamin D metabolite upregulates RANKL?",
+  "gold": "1,25(OH)2D3",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3c-260",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor PGR in the marrow niche?",
+  "gold": "DHRS9",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-201",
+  "type": "invivo_consistency",
+  "task": "For MBL2, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "yes",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5v-332",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Can Nidus predict clinical severity class of a compound?",
+  "gold": "no - mechanism triage only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-264",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor TNFRSF1A in the marrow niche?",
+  "gold": "LTA",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-080",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ITGA1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-237",
+  "type": "niche_lr",
+  "task": "Is CCL5 -> CCR5 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=CCL5",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9v-108",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: Osteocytes secrete sclerostin which blocks LRP5/6. What happens to osteoblast Wnt signaling if SOST is removed?",
+  "gold": "Wnt signaling increases, formation rises",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3a-224",
+  "type": "niche_lr",
+  "task": "Is CD44 -> SELE a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=CD44",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T8v-074",
+  "type": "strategy_workflow",
+  "task": "In one sentence: Before knocking out ligand gene X to test its effect on cell type Y, what must you check first?",
+  "gold": "baseline expression of X, and KO in the PRODUCER cell type",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-074",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does LRRTM4 signal to NRXN3? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=LRRTM4",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T6b-019",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Endothelial' or 'Denosumab × Macrophage'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-263",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor GHRHR in the marrow niche?",
+  "gold": "GHRH",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-010",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SHBG in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-328",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Intermittent PTH 1-34: net effect on osteoblasts?",
+  "gold": "anabolic, increases formation",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-179",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PHF2 or TNFRSF11A?",
+  "gold": "PHF2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-008",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Denosumab × Macrophage' or 'Bisphosphonate × Endothelial'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-051",
+  "type": "drug_library",
+  "task": "Is the compound XanthinolX9 covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-113",
+  "type": "multi_hop",
+  "task": "CXCL12 from MSC signals to which receptor on HSCs, and what happens if the ligand is removed?",
+  "gold": "CXCR4; HSC retention/mobilization disrupted",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-065",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PTPRJ in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-076",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does CD34 signal to SELL? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=CD34",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-324",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Which vitamin D metabolite upregulates RANKL?",
+  "gold": "1,25(OH)2D3",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-053",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out OTUD4 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-181",
+  "type": "invivo_consistency",
+  "task": "For ADCY9, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-127",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CCDC34 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-286",
+  "type": "classic_mechanism",
+  "task": "SCF/KITL acts through which receptor on HSCs?",
+  "gold": "KIT (CD117)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3d-065",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does COL3A1 signal to ADGRG1? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=COL3A1",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-298",
+  "type": "classic_mechanism",
+  "task": "OPG knockout mice phenotype?",
+  "gold": "severe osteoporosis",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3d-069",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does CLSTN1 signal to NRXN3? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=CLSTN1",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9v-120",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: KO of OPG (decoy receptor) — what happens to effective RANKL signaling on osteoclasts?",
+  "gold": "increases (more resorption)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-042",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out MBL2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-124",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: M-CSF (CSF1) signals via CSF1R on osteoclast precursors. KO of CSF1R leads to?",
+  "gold": "osteoclast precursor survival/differentiation impaired (osteopetrosis direction)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-067",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ARHGAP24 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-075",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ARL14EP in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-291",
+  "type": "classic_mechanism",
+  "task": "VLA-4 mediated myeloma-stroma adhesion uses which integrin pair?",
+  "gold": "ITGA4-ITGB1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-297",
+  "type": "classic_mechanism",
+  "task": "WNT16 cortical bone effect is mediated mainly in which lineage?",
+  "gold": "osteoblast/osteocyte",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-059",
+  "type": "drug_library",
+  "task": "Is the compound Ostrenavir covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-035",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out TLK2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-063",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out HHIP in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-151",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): DMP1 or LONRF2?",
+  "gold": "DMP1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-186",
+  "type": "invivo_consistency",
+  "task": "For CDKAL1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "yes",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7b-068",
+  "type": "drug_mechanism",
+  "task": "A compound inhibits HDAC1 with IC50 10 nM. Which pathway do you use for mechanism prediction?",
+  "gold": "target-annotation pathway: weighted virtual KO of HDAC1",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-000",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the Bisphosphonate × Endothelial condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "yes, strong",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-228",
+  "type": "niche_lr",
+  "task": "Is SULT2A1 -> PPARG a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=SULT2A1",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9v-110",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: Bisphosphonate inhibits FDPS in osteoclasts. What is the predicted direction of CTSK?",
+  "gold": "down",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-045",
+  "type": "drug_library",
+  "task": "Is the compound ALVERINE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-070",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out BTBD16 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-235",
+  "type": "niche_lr",
+  "task": "Is WNT8A -> SFRP5 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=WNT8A",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3c-269",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor NPY5R in the marrow niche?",
+  "gold": "PPY",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T5-343",
+  "type": "capability_boundary",
+  "task": "Does an in-silico delta prove clinical efficacy?",
+  "gold": "no - mechanism hypothesis only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-184",
+  "type": "invivo_consistency",
+  "task": "For ATXN10, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "yes",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-222",
+  "type": "niche_lr",
+  "task": "Is PTGES -> PTGER4 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=PTGES",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-161",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PIK3R1 or HECW2?",
+  "gold": "PIK3R1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-133",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): OSR1 or SOX4?",
+  "gold": "OSR1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-049",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out CYP19A1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-077",
+  "type": "strategy_workflow",
+  "task": "A KO experiment returns delta ~ 0. List two possible reasons.",
+  "gold": "gene not expressed in that cell type / model lower bound for rare lineage",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-199",
+  "type": "celltype_attribution",
+  "task": "Knocking out ADAMTS5 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-031",
+  "type": "drug_library",
+  "task": "Is the compound LOSATUXIZUMAB VEDOTIN covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-108",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out RTRAF in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-204",
+  "type": "invivo_consistency",
+  "task": "For NXN, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-244",
+  "type": "niche_lr",
+  "task": "Is PTGES3 -> MST1R a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-017",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Myeloma × Plasma cell' or 'AML × Progenitor'?",
+  "gold": "Myeloma × Plasma cell",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-079",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out HDAC4 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-111",
+  "type": "multi_hop",
+  "task": "Myeloma cells secrete DKK1. What happens to osteoblast differentiation?",
+  "gold": "suppressed (Wnt inhibited)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-290",
+  "type": "classic_mechanism",
+  "task": "Estrogen deficiency bone loss: which cytokine ratio rises?",
+  "gold": "RANKL/OPG ratio",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-028",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SOX4 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-192",
+  "type": "celltype_attribution",
+  "task": "Knocking out WNT16 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-033",
+  "type": "drug_library",
+  "task": "Is the compound SURVODUTIDE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-003",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the Bisphosphonate × MSC condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "yes, moderate",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-029",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RPS12 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-059",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out TIMP2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-259",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor LHCGR in the marrow niche?",
+  "gold": "LHB",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-027",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out HHAT in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-025",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out CD9 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-253",
+  "type": "niche_lr",
+  "task": "Is LPAR2 -> CHL1 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-097",
+  "type": "strategy_workflow",
+  "task": "An experiment contradicts a stored strategy. What should happen?",
+  "gold": "record counter-evidence, lower strategy success rate",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-097",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ZBTB40 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-191",
+  "type": "invivo_consistency",
+  "task": "For DDHD1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-121",
+  "type": "multi_hop",
+  "task": "Type H endothelial cells support osteogenesis. If endothelial tip cells decline in aging, what happens to formation?",
+  "gold": "decreases",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3c-270",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor EPOR in the marrow niche?",
+  "gold": "EPO",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-157",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): ZFP36L2 or ENDOD1?",
+  "gold": "ZFP36L2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-208",
+  "type": "celltype_attribution",
+  "task": "Knocking out EBF1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5v-344",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Does an in-silico delta prove clinical efficacy?",
+  "gold": "no - mechanism hypothesis only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-282",
+  "type": "classic_mechanism",
+  "task": "Bisphosphonates act on which cell type via which enzyme?",
+  "gold": "osteoclast; FDPS",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7b-070",
+  "type": "drug_mechanism",
+  "task": "Denosumab is an antibody against which ligand?",
+  "gold": "RANKL (TNFSF11)",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-118",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: PTH intermittent agonism raises ALPL in osteoblasts. Which program does that indicate?",
+  "gold": "osteoblast formation/anabolism",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-002",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PSMB3 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7b-071",
+  "type": "drug_mechanism",
+  "task": "Zoledronic acid's direct molecular target in osteoclasts?",
+  "gold": "FDPS",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-213",
+  "type": "celltype_attribution",
+  "task": "Knocking out PLB1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-068",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ISYNA1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-083",
+  "type": "strategy_workflow",
+  "task": "When does a strategy get promoted to the persistent strategy library?",
+  "gold": "after the same lesson recurs across independent tasks",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-099",
+  "type": "strategy_workflow",
+  "task": "Two hypotheses explain a result. Which experiment decides fastest?",
+  "gold": "the one with maximally different predicted outcomes between hypotheses",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-329",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: EphrinB2-EphB4 coupling links which two lineages?",
+  "gold": "osteoclast-osteoblast",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-039",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out TPM2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-077",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does EFNB1 signal to EPHB2? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=EFNB1",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T5v-334",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Can Nidus discriminate which of two essential-gene KOs was applied from output alone?",
+  "gold": "no - discrimination at chance for essential genes",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-006",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the Denosumab × Macrophage condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "weak",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-126",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: If macrophage TNF signaling rises in unloading, what is the expected effect on RANKL-induced osteoclastogenesis?",
+  "gold": "enhanced (inflammatory priming)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-169",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): MBL2 or SEC61G?",
+  "gold": "SEC61G",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-022",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out MECOM in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-103",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out RARB in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-232",
+  "type": "niche_lr",
+  "task": "Is ANXA1 -> FPR3 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=ANXA1",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-325",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Osteoclast-derived coupling factor that recruits osteoblasts?",
+  "gold": "CTHRC1 / S1P / collagen fragments",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-154",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): TPM2 or USP8?",
+  "gold": "USP8",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-199",
+  "type": "invivo_consistency",
+  "task": "For KCNE2, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-048",
+  "type": "drug_library",
+  "task": "Is the compound TIRASEMTIV covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-051",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SULT1E1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-015",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Denosumab × Macrophage' or 'Bisphosphonate × Endothelial'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-278",
+  "type": "classic_mechanism",
+  "task": "Which cell types are the physiological RANKL producers in the marrow niche?",
+  "gold": "osteoblast lineage / osteocyte / MSC",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-089",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ABO in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-173",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PKD2L1 or PLB1?",
+  "gold": "PLB1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-159",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): RAB5A or ENDOD1?",
+  "gold": "RAB5A",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-124",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out TBX3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-294",
+  "type": "classic_mechanism",
+  "task": "Which KO gives osteopetrosis via RANK loss?",
+  "gold": "TNFRSF11A",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-208",
+  "type": "invivo_consistency",
+  "task": "For SETD4, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-054",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RARB in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-041",
+  "type": "drug_library",
+  "task": "Is the compound BELUMOSUDIL MESYLATE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-304",
+  "type": "classic_mechanism",
+  "task": "CTSK enzyme function in osteoclasts?",
+  "gold": "collagen degradation in resorption lacunae",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-301",
+  "type": "classic_mechanism",
+  "task": "Myeloma cells suppress osteoblasts partly via which Wnt inhibitor?",
+  "gold": "DKK1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-313",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Romosozumab targets which molecule?",
+  "gold": "sclerostin (SOST)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-137",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): GREM2 or BHLHE41?",
+  "gold": "GREM2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-100",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out SSPN in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-160",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): TNFRSF11A or EBF1?",
+  "gold": "EBF1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-015",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out ITGA1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-210",
+  "type": "invivo_consistency",
+  "task": "For TCF4, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-268",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor F2R in the marrow niche?",
+  "gold": "F2",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-037",
+  "type": "drug_library",
+  "task": "Is the compound METHDILAZINE HYDROCHLORIDE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-018",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × MSC' or 'Bisphosphonate × Endothelial'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-043",
+  "type": "drug_library",
+  "task": "Is the compound ITX-5061 covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-202",
+  "type": "celltype_attribution",
+  "task": "Knocking out MMP14 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-283",
+  "type": "classic_mechanism",
+  "task": "Romosozumab targets which molecule?",
+  "gold": "sclerostin (SOST)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-039",
+  "type": "drug_library",
+  "task": "Is the compound DEMCIZUMAB covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-205",
+  "type": "invivo_consistency",
+  "task": "For POLG2, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-132",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): MBL2 or SERP2?",
+  "gold": "SERP2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5-345",
+  "type": "capability_boundary",
+  "task": "Can Nidus infer off-target metabolite toxicity?",
+  "gold": "no - on-target space only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-212",
+  "type": "invivo_consistency",
+  "task": "For TCF7L2, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "no",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-119",
+  "type": "multi_hop",
+  "task": "KO of OPG (decoy receptor) — what happens to effective RANKL signaling on osteoclasts?",
+  "gold": "increases (more resorption)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-048",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out APCDD1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-105",
+  "type": "multi_hop",
+  "task": "Estrogen deficiency raises RANKL/OPG ratio. What is the downstream effect on osteoclasts and bone mass?",
+  "gold": "more osteoclastogenesis, bone loss",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-034",
+  "type": "drug_library",
+  "task": "Is the compound FLUMATINIB covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-066",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ARHGAP26 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-156",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): EN1 or LITAF?",
+  "gold": "LITAF",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-114",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out NTN1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-016",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Endothelial' or 'Denosumab × Macrophage'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-119",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PPP1R3B in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-050",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out S100A1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-140",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): TLK2 or INPP5A?",
+  "gold": "INPP5A",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-172",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): TPCN2 or CYBRD1?",
+  "gold": "CYBRD1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-207",
+  "type": "celltype_attribution",
+  "task": "Knocking out PSEN2 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-079",
+  "type": "strategy_workflow",
+  "task": "To claim a niche LR edge changes between conditions, what controls do you need?",
+  "gold": "10-seed generation both conditions + real data comparison",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-293",
+  "type": "classic_mechanism",
+  "task": "Osteocytes sense mechanical load via which channel?",
+  "gold": "PIEZO1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-134",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): RPLP2 or ERC2?",
+  "gold": "ERC2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-162",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): ATXN10 or ZFHX4?",
+  "gold": "ZFHX4",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-101",
+  "type": "strategy_workflow",
+  "task": "What is the contamination-control question type and why does it matter?",
+  "gold": "answers exist only in our data, proving the agent experiments rather than recalls",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-262",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor NGFR in the marrow niche?",
+  "gold": "NTF3",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-053",
+  "type": "drug_library",
+  "task": "Is the compound Tolvaptinib covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-045",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PLET1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-143",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): DMP1 or PKD2L1?",
+  "gold": "DMP1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-255",
+  "type": "niche_lr",
+  "task": "Is TNF -> THY1 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-271",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor MC5R in the marrow niche?",
+  "gold": "AGRP",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-194",
+  "type": "celltype_attribution",
+  "task": "Knocking out KLF12 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-185",
+  "type": "invivo_consistency",
+  "task": "For CADM1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-131",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): SELENOK or TBC1D1?",
+  "gold": "SELENOK",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-206",
+  "type": "celltype_attribution",
+  "task": "Knocking out FOS affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-021",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out JAZF1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-195",
+  "type": "celltype_attribution",
+  "task": "Knocking out RFNG affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-150",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): ETS2 or RREB1?",
+  "gold": "RREB1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-099",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ETS2 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-003",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out DOCK8 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-023",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out BCL2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-170",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): FAT3 or SOX4?",
+  "gold": "FAT3",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-145",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): NFIA or SLC4A2?",
+  "gold": "NFIA",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-070",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does TNFSF11 signal to TNFRSF11B? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=TNFSF11",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9-117",
+  "type": "multi_hop",
+  "task": "PTH intermittent agonism raises ALPL in osteoblasts. Which program does that indicate?",
+  "gold": "osteoblast formation/anabolism",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-215",
+  "type": "celltype_attribution",
+  "task": "Knocking out DLX5 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-075",
+  "type": "strategy_workflow",
+  "task": "You want mechanism prediction for a compound NOT in the library but with known target and IC50. What do you do?",
+  "gold": "target-annotation pathway: virtual KO with potency weighting",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-115",
+  "type": "multi_hop",
+  "task": "If a compound is an HDAC inhibitor, what happens to CDKN1A and to proliferation programs?",
+  "gold": "CDKN1A up, proliferation down",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-106",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out SLX4IP in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-002",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the Myeloma × Plasma cell condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "yes, strong",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-252",
+  "type": "niche_lr",
+  "task": "Is CCR8 -> FGF3 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-177",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): DLX5 or COL27A1?",
+  "gold": "DLX5",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-007",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out MUSK in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-028",
+  "type": "drug_library",
+  "task": "Is the compound ATINUMAB covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-058",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SMAD7 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5-339",
+  "type": "capability_boundary",
+  "task": "Can Nidus predict absolute BMD values?",
+  "gold": "no - mechanism level only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-069",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out LHX9 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-006",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SEC61G in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-212",
+  "type": "celltype_attribution",
+  "task": "Knocking out CCR1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-068",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does EFNA2 signal to EPHA1? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=EFNA2",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-027",
+  "type": "drug_library",
+  "task": "Is the compound FINERENONE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-060",
+  "type": "drug_library",
+  "task": "Is the compound Kibuzolid covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-090",
+  "type": "strategy_workflow",
+  "task": "In one sentence: Why must z0 be encoded from REAL cells for KO generation?",
+  "gold": "anchors generation to the real (cell type, condition) context",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-214",
+  "type": "celltype_attribution",
+  "task": "Knocking out RBMS3 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-273",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor TNFRSF14 in the marrow niche?",
+  "gold": "BTLA",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-148",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PKD2L1 or KLF4?",
+  "gold": "KLF4",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-171",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): TPM2 or PLB1?",
+  "gold": "PLB1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-017",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PHF2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-330",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Myeloma cells suppress osteoblasts partly via which Wnt inhibitor?",
+  "gold": "DKK1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-016",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out NFIX in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-231",
+  "type": "niche_lr",
+  "task": "Is DLL4 -> NOTCH1 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=DLL4",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-200",
+  "type": "invivo_consistency",
+  "task": "For LYPLAL1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5v-346",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Can Nidus infer off-target metabolite toxicity?",
+  "gold": "no - on-target space only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-071",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does WNT7A signal to CER1? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=WNT7A",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-307",
+  "type": "classic_mechanism",
+  "task": "EphrinB2-EphB4 coupling links which two lineages?",
+  "gold": "osteoclast-osteoblast",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-202",
+  "type": "invivo_consistency",
+  "task": "For MSMO1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "yes",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-004",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out FERD3L in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-095",
+  "type": "strategy_workflow",
+  "task": "Before finalizing a discovery, what validation against literature must be run?",
+  "gold": "novelty check: is this already textbook knowledge?",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-164",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): L3MBTL3 or TPM2?",
+  "gold": "L3MBTL3",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-024",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out TNFRSF11B in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-087",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out FOXC1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-217",
+  "type": "niche_lr",
+  "task": "Is VEGFA -> KDR a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=VEGFA",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-126",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out AP1B1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-265",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor GHSR in the marrow niche?",
+  "gold": "GHRL",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-141",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): EPHA4 or ZFP36L2?",
+  "gold": "ZFP36L2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-080",
+  "type": "strategy_workflow",
+  "task": "In one sentence: To claim a niche LR edge changes between conditions, what controls do you need?",
+  "gold": "10-seed generation both conditions + real data comparison",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-254",
+  "type": "niche_lr",
+  "task": "Is LTC4S -> ACKR3 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-033",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out DNAJC3 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-082",
+  "type": "strategy_workflow",
+  "task": "In one sentence: How do you test whether a macrophage ligand drives an osteoclast program?",
+  "gold": "KO the ligand in macrophage (producer), read osteoclast program in receiver",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-315",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: RANK signaling activates which pathway in osteoclast precursors?",
+  "gold": "NF-kB / NFATc1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-326",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: HDAC inhibition classically induces which cell-cycle gene?",
+  "gold": "CDKN1A (p21)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-205",
+  "type": "celltype_attribution",
+  "task": "Knocking out SLC8A1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-308",
+  "type": "classic_mechanism",
+  "task": "Semaphorin 3A from which cells protects bone?",
+  "gold": "osteoblast lineage / neurons",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-288",
+  "type": "classic_mechanism",
+  "task": "Master TF of osteoclastogenesis downstream of RANK?",
+  "gold": "NFATc1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-320",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: OPG knockout mice phenotype?",
+  "gold": "severe osteoporosis",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7b-072",
+  "type": "drug_mechanism",
+  "task": "A target-annotated AGONIST prediction is currently weaker than inhibitors. True or false?",
+  "gold": "true (documented boundary)",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-071",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out EBF1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-129",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out LONRF2 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5-341",
+  "type": "capability_boundary",
+  "task": "Are osteocyte readouts full-fidelity?",
+  "gold": "no - rare lineage lower bound",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-125",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out FGF9 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-239",
+  "type": "niche_lr",
+  "task": "Is CCL8 -> ACKR2 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=CCL8",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3d-073",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does EDN3 signal to EDNRB? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=EDN3",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-005",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out KLF4 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-216",
+  "type": "invivo_consistency",
+  "task": "For ZBED5, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-258",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor CSF1R in the marrow niche?",
+  "gold": "IL34",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-193",
+  "type": "invivo_consistency",
+  "task": "For DOT1L, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "yes",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-317",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: SCF/KITL acts through which receptor on HSCs?",
+  "gold": "KIT (CD117)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-203",
+  "type": "celltype_attribution",
+  "task": "Knocking out TANC1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-242",
+  "type": "niche_lr",
+  "task": "Is PTGES3 -> BDKRB1 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-287",
+  "type": "classic_mechanism",
+  "task": "Unloading induces which MSC lineage bias?",
+  "gold": "adipogenic over osteogenic",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3b-247",
+  "type": "niche_lr",
+  "task": "Is SRD5A1 -> TMEM219 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-319",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Bisphosphonates act on which cell type via which enzyme?",
+  "gold": "osteoclast; FDPS",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-210",
+  "type": "celltype_attribution",
+  "task": "Knocking out GAS1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-314",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Knocking out RANKL (TNFSF11) in osteoblast-lineage cells: what happens to osteoclast differentiation?",
+  "gold": "osteoclast differentiation collapses",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-122",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out EYA4 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-146",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): MYLK4 or CCDC91?",
+  "gold": "MYLK4",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-088",
+  "type": "strategy_workflow",
+  "task": "In one sentence: What is the correct response when asked for clinical severity classification?",
+  "gold": "decline: mechanism triage, not severity",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-001",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out FOXC1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-046",
+  "type": "drug_library",
+  "task": "Is the compound AMG-811 covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-057",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PARP8 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-029",
+  "type": "drug_library",
+  "task": "Is the compound MARIMASTAT covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-207",
+  "type": "invivo_consistency",
+  "task": "For RGCC, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-218",
+  "type": "niche_lr",
+  "task": "Is PRL -> PRLR a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=PRL",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T8-081",
+  "type": "strategy_workflow",
+  "task": "How do you test whether a macrophage ligand drives an osteoclast program?",
+  "gold": "KO the ligand in macrophage (producer), read osteoclast program in receiver",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-042",
+  "type": "drug_library",
+  "task": "Is the compound DABUZALGRON covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-211",
+  "type": "celltype_attribution",
+  "task": "Knocking out FOXO1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-281",
+  "type": "classic_mechanism",
+  "task": "Sclerostin (SOST) is secreted by which cell type and inhibits what?",
+  "gold": "osteocyte; inhibits Wnt/LRP5-6",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-076",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CD109 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-100",
+  "type": "strategy_workflow",
+  "task": "In one sentence: Two hypotheses explain a result. Which experiment decides fastest?",
+  "gold": "the one with maximally different predicted outcomes between hypotheses",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-011",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Myeloma × Plasma cell' or 'AML × CMP'?",
+  "gold": "Myeloma × Plasma cell",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-034",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PKD2L1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-014",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out MAP4K5 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-277",
+  "type": "classic_mechanism",
+  "task": "Knocking out OPG (TNFRSF11B) systemically: what happens to bone mass?",
+  "gold": "bone mass decreases (OPG is the RANKL decoy)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-062",
+  "type": "drug_library",
+  "task": "Is the compound Tibrezomab covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-047",
+  "type": "drug_library",
+  "task": "Is the compound RG-7598 covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-057",
+  "type": "drug_library",
+  "task": "Is the compound Quenzartide covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-062",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out VEGFA in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-209",
+  "type": "invivo_consistency",
+  "task": "For SLX4IP, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-032",
+  "type": "drug_library",
+  "task": "Is the compound LEVETIRACETAM covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-306",
+  "type": "classic_mechanism",
+  "task": "CXCL12 is produced by which niche cells?",
+  "gold": "MSC / CAR cells / endothelial",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3c-267",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor PTGFR in the marrow niche?",
+  "gold": "PRXL2B",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T8v-084",
+  "type": "strategy_workflow",
+  "task": "In one sentence: When does a strategy get promoted to the persistent strategy library?",
+  "gold": "after the same lesson recurs across independent tasks",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-109",
+  "type": "multi_hop",
+  "task": "Bisphosphonate inhibits FDPS in osteoclasts. What is the predicted direction of CTSK?",
+  "gold": "down",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-091",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out SALL1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-305",
+  "type": "classic_mechanism",
+  "task": "Sphingosine-1-phosphate axis in osteoclast migration: receptor?",
+  "gold": "S1PR1/S1PR2",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-050",
+  "type": "drug_library",
+  "task": "Is the compound REVEXEPRIDE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-115",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out DGKG in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-031",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out HS6ST1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-299",
+  "type": "classic_mechanism",
+  "task": "DKK1 does what to Wnt signaling?",
+  "gold": "inhibits via LRP5/6",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-215",
+  "type": "invivo_consistency",
+  "task": "For WNT16, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-078",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does WNT7B signal to FRZB? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=WNT7B",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-038",
+  "type": "drug_library",
+  "task": "Is the compound NITRIC OXIDE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-026",
+  "type": "drug_library",
+  "task": "Is the compound BENPERIDOL covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-091",
+  "type": "strategy_workflow",
+  "task": "For figure-grade claims, how many seeds are required?",
+  "gold": "10 seeds",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-104",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: RANKL signals through RANK on osteoclasts. If you KO the receptor, what happens to CTSK/ACP5?",
+  "gold": "resorption program decreases",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-052",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SMG6 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-198",
+  "type": "celltype_attribution",
+  "task": "Knocking out SPAG9 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-008",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PIK3R1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-036",
+  "type": "drug_library",
+  "task": "Is the compound BPI-9016 covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-081",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CMIP in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5v-342",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Are osteocyte readouts full-fidelity?",
+  "gold": "no - rare lineage lower bound",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-009",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out HOXA10 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-167",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): SATB2 or PLB1?",
+  "gold": "PLB1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-114",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: CXCL12 from MSC signals to which receptor on HSCs, and what happens if the ligand is removed?",
+  "gold": "CXCR4; HSC retention/mobilization disrupted",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-044",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RPS21 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-111",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PLPP3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-292",
+  "type": "classic_mechanism",
+  "task": "Myeloma bone disease: RANKL/OPG ratio in niche?",
+  "gold": "increases",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T6b-007",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Endothelial' or 'Bisphosphonate × MSC'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-020",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SELENOK in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-010",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Osteoclast' or 'Denosumab × Macrophage'?",
+  "gold": "Bisphosphonate × Osteoclast",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-090",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out SPTBN1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-095",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CRB1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-136",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): CCDC91 or PPM1K?",
+  "gold": "PPM1K",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-103",
+  "type": "multi_hop",
+  "task": "RANKL signals through RANK on osteoclasts. If you KO the receptor, what happens to CTSK/ACP5?",
+  "gold": "resorption program decreases",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-130",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): BAHCC1 or PSMB3?",
+  "gold": "PSMB3",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-009",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'AML × CMP' or 'Myeloma × Plasma cell'?",
+  "gold": "Myeloma × Plasma cell",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-096",
+  "type": "strategy_workflow",
+  "task": "In one sentence: Before finalizing a discovery, what validation against literature must be run?",
+  "gold": "novelty check: is this already textbook knowledge?",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-187",
+  "type": "invivo_consistency",
+  "task": "For CMIP, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "no",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-035",
+  "type": "drug_library",
+  "task": "Is the compound BENZBROMARONE covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-206",
+  "type": "invivo_consistency",
+  "task": "For PTPRD, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-056",
+  "type": "drug_library",
+  "task": "Is the compound Paxlotinib covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-087",
+  "type": "strategy_workflow",
+  "task": "What is the correct response when asked for clinical severity classification?",
+  "gold": "decline: mechanism triage, not severity",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-046",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out CRB1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-093",
+  "type": "strategy_workflow",
+  "task": "How to handle a hypothesis about osteocytes specifically?",
+  "gold": "flag lower-bound: rare lineage, reduced fidelity",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-190",
+  "type": "invivo_consistency",
+  "task": "For DAAM2, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "no",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-213",
+  "type": "invivo_consistency",
+  "task": "For TRPS1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-125",
+  "type": "multi_hop",
+  "task": "If macrophage TNF signaling rises in unloading, what is the expected effect on RANKL-induced osteoclastogenesis?",
+  "gold": "enhanced (inflammatory priming)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-197",
+  "type": "invivo_consistency",
+  "task": "For GPC6, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-135",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): CD9 or CRYGN?",
+  "gold": "CRYGN",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-220",
+  "type": "niche_lr",
+  "task": "Is EFNA5 -> EPHA1 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=EFNA5",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-311",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Knocking out OPG (TNFRSF11B) systemically: what happens to bone mass?",
+  "gold": "bone mass decreases (OPG is the RANKL decoy)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T5-331",
+  "type": "capability_boundary",
+  "task": "Can Nidus predict clinical severity class of a compound?",
+  "gold": "no - mechanism triage only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-139",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): ZFP36L2 or SLX4IP?",
+  "gold": "ZFP36L2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-180",
+  "type": "invivo_consistency",
+  "task": "For METRNL, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-192",
+  "type": "invivo_consistency",
+  "task": "For DNMT3A, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-064",
+  "type": "drug_library",
+  "task": "Is the compound Exaluride covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-072",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does DDC signal to HTR3B? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=DDC",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-195",
+  "type": "invivo_consistency",
+  "task": "For FTO, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-089",
+  "type": "strategy_workflow",
+  "task": "Why must z0 be encoded from REAL cells for KO generation?",
+  "gold": "anchors generation to the real (cell type, condition) context",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-060",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out IRS2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-011",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out MMP2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-120",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out TACR3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-001",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the Bisphosphonate × Osteoclast condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "yes, strong",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-104",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out COL27A1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8-073",
+  "type": "strategy_workflow",
+  "task": "Before knocking out ligand gene X to test its effect on cell type Y, what must you check first?",
+  "gold": "baseline expression of X, and KO in the PRODUCER cell type",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-098",
+  "type": "strategy_workflow",
+  "task": "In one sentence: An experiment contradicts a stored strategy. What should happen?",
+  "gold": "record counter-evidence, lower strategy success rate",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-152",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): HS6ST1 or ARHGAP24?",
+  "gold": "ARHGAP24",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-149",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): DOT1L or CAMSAP2?",
+  "gold": "DOT1L",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-061",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out STAT5A in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-004",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the AML × CMP condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "yes, moderate",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-272",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor EGFR in the marrow niche?",
+  "gold": "AREG",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9v-106",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: Estrogen deficiency raises RANKL/OPG ratio. What is the downstream effect on osteoclasts and bone mass?",
+  "gold": "more osteoclastogenesis, bone loss",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-113",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out SYN3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-030",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out SLC4A2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-275",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor GCGR in the marrow niche?",
+  "gold": "GCG",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-077",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out DISP1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-256",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor NPY5R in the marrow niche?",
+  "gold": "NPY",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T6b-012",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Myeloma × Plasma cell' or 'AML × Progenitor'?",
+  "gold": "Myeloma × Plasma cell",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-321",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Estrogen deficiency bone loss: which cytokine ratio rises?",
+  "gold": "RANKL/OPG ratio",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-065",
+  "type": "drug_library",
+  "task": "Is the compound Gremostatin covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-144",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): FAM118A or MSRB3?",
+  "gold": "MSRB3",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-226",
+  "type": "niche_lr",
+  "task": "Is LRRTM3 -> NRXN1 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=LRRTM3",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-123",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ANKRD7 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-189",
+  "type": "invivo_consistency",
+  "task": "For CYFIP1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-092",
+  "type": "strategy_workflow",
+  "task": "In one sentence: For figure-grade claims, how many seeds are required?",
+  "gold": "10 seeds",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-013",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Osteoclast' or 'Denosumab × Macrophage'?",
+  "gold": "Bisphosphonate × Osteoclast",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-223",
+  "type": "niche_lr",
+  "task": "Is MDK -> ALK a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=MDK",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-302",
+  "type": "classic_mechanism",
+  "task": "Which receptor does M-CSF (CSF1) bind?",
+  "gold": "CSF1R",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T8-085",
+  "type": "strategy_workflow",
+  "task": "An agent wants to claim a compound is 'safe'. Is this within capability?",
+  "gold": "no - mechanism-level triage only",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5-337",
+  "type": "capability_boundary",
+  "task": "Should a ligand KO be done in the receiver cell type?",
+  "gold": "no - producer cells",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-073",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out LUC7L in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-019",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PTPRJ in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-182",
+  "type": "invivo_consistency",
+  "task": "For ARHGAP25, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-153",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PDE8A or MSRB3?",
+  "gold": "MSRB3",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3d-066",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does VEGFB signal to NRP1? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=VEGFB",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-078",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out VTN in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-072",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out AKAP11 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-196",
+  "type": "celltype_attribution",
+  "task": "Knocking out DCN affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-163",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): RPLP2 or FOXC1?",
+  "gold": "FOXC1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-086",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out RGCC in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-084",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out MSRB3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9-107",
+  "type": "multi_hop",
+  "task": "Osteocytes secrete sclerostin which blocks LRP5/6. What happens to osteoblast Wnt signaling if SOST is removed?",
+  "gold": "Wnt signaling increases, formation rises",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9v-112",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: Myeloma cells secrete DKK1. What happens to osteoblast differentiation?",
+  "gold": "suppressed (Wnt inhibited)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-041",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RSL1D1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-233",
+  "type": "niche_lr",
+  "task": "Is VIP -> VIPR1 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=VIP",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4v-327",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Myeloma bone disease: RANKL/OPG ratio in niche?",
+  "gold": "increases",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T5v-336",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Is a KO readout valid if the gene has zero baseline expression in that cell type?",
+  "gold": "no - check baseline expression first",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-183",
+  "type": "invivo_consistency",
+  "task": "For ARID1B, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-026",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out BHLHE41 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-193",
+  "type": "celltype_attribution",
+  "task": "Knocking out FZD4 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-250",
+  "type": "niche_lr",
+  "task": "Is EPHA5 -> UTS2R a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-284",
+  "type": "classic_mechanism",
+  "task": "Intermittent PTH 1-34: net effect on osteoblasts?",
+  "gold": "anabolic, increases formation",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-200",
+  "type": "celltype_attribution",
+  "task": "Knocking out SOBP affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-276",
+  "type": "classic_mechanism",
+  "task": "Knocking out RANKL (TNFSF11) in osteoblast-lineage cells: what happens to osteoclast differentiation?",
+  "gold": "osteoclast differentiation collapses",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T6b-023",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Myeloma × Plasma cell' or 'AML × CMP'?",
+  "gold": "Myeloma × Plasma cell",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-257",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor LEPR in the marrow niche?",
+  "gold": "LEP",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-054",
+  "type": "drug_library",
+  "task": "Is the compound Zoraclax covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-121",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out FHOD3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-032",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RPLP2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-174",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): HECW2 or ZEB2?",
+  "gold": "ZEB2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-155",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): MRPS21 or WWC2?",
+  "gold": "WWC2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T2-201",
+  "type": "celltype_attribution",
+  "task": "Knocking out MSH6 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoblast formation compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-036",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out TBX4 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7b-066",
+  "type": "drug_mechanism",
+  "task": "Panobinostat inhibits which target family, and what is the predicted effect on CDKN1A?",
+  "gold": "HDAC family; CDKN1A up",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-083",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out TIPARP in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-013",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out PELO in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-117",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out DNM3 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5v-340",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Can Nidus predict absolute BMD values?",
+  "gold": "no - mechanism level only",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-063",
+  "type": "drug_library",
+  "task": "Is the compound Norvapentin covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-280",
+  "type": "classic_mechanism",
+  "task": "LRP5 loss-of-function in osteoblasts: effect on bone formation?",
+  "gold": "decreased formation, loss of Wnt signaling",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T6b-014",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Bisphosphonate × Endothelial' or 'Bisphosphonate × MSC'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-158",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): RPS21 or ITGA1?",
+  "gold": "ITGA1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-058",
+  "type": "drug_library",
+  "task": "Is the compound Dralamab-X covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-105",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out WNT4 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-055",
+  "type": "drug_library",
+  "task": "Is the compound Mirensotin covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-309",
+  "type": "classic_mechanism",
+  "task": "Angiocrine signals from which cells support osteogenesis?",
+  "gold": "endothelial (type H vessels)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3a-236",
+  "type": "niche_lr",
+  "task": "Is CLSTN1 -> NRXN1 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=CLSTN1",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T4-285",
+  "type": "classic_mechanism",
+  "task": "The classic MSC-to-HSC retention axis?",
+  "gold": "CXCL12-CXCR4",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T7a-061",
+  "type": "drug_library",
+  "task": "Is the compound Fenraglast covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-012",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out RSPO3 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-234",
+  "type": "niche_lr",
+  "task": "Is F2 -> THBD a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=F2",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-196",
+  "type": "invivo_consistency",
+  "task": "For GMDS, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5-335",
+  "type": "capability_boundary",
+  "task": "Is a KO readout valid if the gene has zero baseline expression in that cell type?",
+  "gold": "no - check baseline expression first",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5-333",
+  "type": "capability_boundary",
+  "task": "Can Nidus discriminate which of two essential-gene KOs was applied from output alone?",
+  "gold": "no - discrimination at chance for essential genes",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-211",
+  "type": "invivo_consistency",
+  "task": "For TCF7L1, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-128",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out MCTP2 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-122",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: Type H endothelial cells support osteogenesis. If endothelial tip cells decline in aging, what happens to formation?",
+  "gold": "decreases",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-inv-188",
+  "type": "invivo_consistency",
+  "task": "For CORO6, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-225",
+  "type": "niche_lr",
+  "task": "Is PTGES -> PTGER3 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=PTGES",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3a-229",
+  "type": "niche_lr",
+  "task": "Is CCL26 -> CCR2 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=CCL26",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-112",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CYP19A1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-086",
+  "type": "strategy_workflow",
+  "task": "In one sentence: An agent wants to claim a compound is 'safe'. Is this within capability?",
+  "gold": "no - mechanism-level triage only",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-102",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out DDN in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-093",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CYFIP1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6-005",
+  "type": "condition_reproduction",
+  "task": "Does the virtual niche reproduce the AML × Progenitor condition effect across seeds? Answer yes or no and the expected fidelity level (strong >0.7, moderate 0.4-0.7, weak <0.4).",
+  "gold": "yes, moderate",
+  "gold_kind": "fidelity",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T5v-338",
+  "type": "capability_boundary",
+  "task": "A user asks you, the discovery agent: Should a ligand KO be done in the receiver cell type?",
+  "gold": "no - producer cells",
+  "gold_kind": "boundary",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-030",
+  "type": "drug_library",
+  "task": "Is the compound PEGAPTANIB OCTASODIUM covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-043",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out COL27A1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-020",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'AML × Progenitor' or 'Bisphosphonate × Osteoclast'?",
+  "gold": "Bisphosphonate × Osteoclast",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-116",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out CDC42 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7b-067",
+  "type": "drug_mechanism",
+  "task": "Panobinostat virtual KO: predicted direction for MYC and CTSK in osteoclasts?",
+  "gold": "MYC down, CTSK down",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3a-238",
+  "type": "niche_lr",
+  "task": "Is SELPLG -> SELP a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=SELPLG",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-pai-166",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): VTN or HS6ST1?",
+  "gold": "VTN",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-094",
+  "type": "strategy_workflow",
+  "task": "In one sentence: How to handle a hypothesis about osteocytes specifically?",
+  "gold": "flag lower-bound: rare lineage, reduced fidelity",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-203",
+  "type": "invivo_consistency",
+  "task": "For NEBL, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-044",
+  "type": "drug_library",
+  "task": "Is the compound IRATUMUMAB covered by the target-annotation library (i.e., has curated target genes)? Answer yes or no.",
+  "gold": "yes",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-056",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out STARD3NL in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-168",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): SLC4A2 or SSTR5?",
+  "gold": "SSTR5",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-147",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): WWC2 or BHLHE41?",
+  "gold": "WWC2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-085",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PPARG in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7a-052",
+  "type": "drug_library",
+  "task": "Is the compound Brivanex covered by the target-annotation library? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "bool",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-194",
+  "type": "invivo_consistency",
+  "task": "For DUSP5, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-107",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ADAMTSL1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-074",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PPM1K in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T8v-102",
+  "type": "strategy_workflow",
+  "task": "In one sentence: What is the contamination-control question type and why does it matter?",
+  "gold": "answers exist only in our data, proving the agent experiments rather than recalls",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-165",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): PTPDC1 or CMIP?",
+  "gold": "CMIP",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-118",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PTCH1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-096",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out RGS9 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-312",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: TRAP/ACP5 is a marker of which cell?",
+  "gold": "osteoclast",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3d-067",
+  "type": "niche_lr",
+  "task": "In the niche communication database, does ADM signal to RAMP3? Answer yes or no and which side is the ligand.",
+  "gold": "yes, ligand=ADM",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "T9-123",
+  "type": "multi_hop",
+  "task": "M-CSF (CSF1) signals via CSF1R on osteoclast precursors. KO of CSF1R leads to?",
+  "gold": "osteoclast precursor survival/differentiation impaired (osteopetrosis direction)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-082",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out PIK3R1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-000",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out TNP1 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-322",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Unloading induces which MSC lineage bias?",
+  "gold": "adipogenic over osteogenic",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T3a-216",
+  "type": "niche_lr",
+  "task": "Is EFNA2 -> EPHA5 a curated ligand-receptor edge in the niche? Answer yes or no, and name the ligand.",
+  "gold": "yes, ligand=EFNA2",
+  "gold_kind": "lr_exists",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-mec-037",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out CAMSAP2 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-inv-214",
+  "type": "invivo_consistency",
+  "task": "For USP3, does the mouse knockout bone phenotype (Morris 2019) agree in direction with your in-silico KO in osteoblasts? Answer yes, no, or too-weak-to-call, with reasoning.",
+  "gold": "the in-silico effect is too weak relative to control-gene KOs to call agreement (|z|<=1)",
+  "gold_kind": "invivo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-323",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: Master TF of osteoclastogenesis downstream of RANK?",
+  "gold": "NFATc1",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T8v-076",
+  "type": "strategy_workflow",
+  "task": "In one sentence: You want mechanism prediction for a compound NOT in the library but with known target and IC50. What do you do?",
+  "gold": "target-annotation pathway: virtual KO with potency weighting",
+  "gold_kind": "strategy",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3c-274",
+  "type": "niche_lr_reverse",
+  "task": "Which ligand signals through receptor PTGDR in the marrow niche?",
+  "gold": "PTGDS",
+  "gold_kind": "gene",
+  "contamination": "literature"
+ },
+ {
+  "id": "T6b-021",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Denosumab × Macrophage' or 'Bisphosphonate × Endothelial'?",
+  "gold": "Bisphosphonate × Endothelial",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-098",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out STAT5A in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-138",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): GPC6 or FOXO1?",
+  "gold": "FOXO1",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-047",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out ZBED5 in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T7b-069",
+  "type": "drug_mechanism",
+  "task": "PTH (teriparatide) agonism on osteoblasts: predicted direction for ALPL and SPP1?",
+  "gold": "both up",
+  "gold_kind": "mechanism",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4-289",
+  "type": "classic_mechanism",
+  "task": "HDAC inhibition classically induces which cell-cycle gene?",
+  "gold": "CDKN1A (p21)",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "T2-209",
+  "type": "celltype_attribution",
+  "task": "Knocking out TNP1 affects which compartment more strongly: osteoblast formation or osteoclast resorption?",
+  "gold": "osteoclast resorption compartment",
+  "gold_kind": "compartment",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-110",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out TANC1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "stays minimal",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-088",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out OSR1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-109",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out ARHGAP18 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T9v-116",
+  "type": "multi_hop",
+  "task": "Reason step by step through the virtual organ: If a compound is an HDAC inhibitor, what happens to CDKN1A and to proliferation programs?",
+  "gold": "CDKN1A up, proliferation down",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ },
+ {
+  "id": "V4-ost-092",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out NRN1 in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-pai-176",
+  "type": "pairwise_compare",
+  "task": "Knocking out which gene in osteoblasts increases the osteoblast formation program more (relative to control-gene KOs): ACSF2 or DAAM2?",
+  "gold": "DAAM2",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T6b-022",
+  "type": "condition_reproduction",
+  "task": "Which condition-celltype pair is reproduced with higher fidelity by the virtual niche: 'Denosumab × Macrophage' or 'Myeloma × Plasma cell'?",
+  "gold": "Myeloma × Plasma cell",
+  "gold_kind": "combo",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-245",
+  "type": "niche_lr",
+  "task": "Is NTS -> EFNA2 a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-mec-018",
+  "type": "mechanism_direction",
+  "task": "In the virtual marrow niche, knocking out NFIA in osteoblasts — does the osteoblast formation program increase, decrease, or stay minimal?",
+  "gold": "increases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "V4-ost-094",
+  "type": "osteoclast_direction",
+  "task": "In the virtual marrow niche, knocking out SEMA3A in osteoclasts — does the bone-resorption program increase, decrease, or stay minimal?",
+  "gold": "decreases",
+  "gold_kind": "sign",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T3b-241",
+  "type": "niche_lr",
+  "task": "Is SRD5A1 -> LCK a curated ligand-receptor edge? Answer yes or no.",
+  "gold": "no",
+  "gold_kind": "lr_absent",
+  "contamination": "controlled"
+ },
+ {
+  "id": "T4v-316",
+  "type": "classic_mechanism",
+  "task": "As the virtual-organ operator, answer concisely: The classic MSC-to-HSC retention axis?",
+  "gold": "CXCL12-CXCR4",
+  "gold_kind": "mechanism",
+  "contamination": "literature"
+ }
+]

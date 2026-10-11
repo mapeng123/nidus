@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pt
+*.bak
+*.bak2
+config.json
+nidus_git_weight.pt

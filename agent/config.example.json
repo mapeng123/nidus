@@ -1,0 +1,6 @@
+{
+  "NIDUS_LLM_BASE": "https://api.moonshot.cn/v1",
+  "NIDUS_LLM_KEY": "paste-your-own-key-here",
+  "NIDUS_LLM_MODEL": "kimi-k3",
+  "NIDUS_LLM_THINKING": "disabled"
+}
