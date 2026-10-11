@@ -10,7 +10,13 @@ agent/          conversational agent (LLM tool-calling layer) and BoneBench benc
 evaluation/     control-calibration and evaluation jobs with input gene lists
 ```
 
-Model weights (`pmdm_v3_oponly_step2000.pt`, 276 MB) are distributed as a binary asset in [Releases](../../releases) because they exceed GitHub's 100 MB file limit.
+Model weights (`pmdm_v3_oponly_step2000.pt`, 276 MB) are distributed in [Releases](../../releases) because they exceed GitHub's 100 MB file limit. The file is split into 14 parts; run
+
+```bash
+bash tools/download_weights.sh model/
+```
+
+to download all parts, reassemble them into `model/pmdm_v3_oponly_step2000.pt` and verify the MD5 checksum (`1c6c09b56401936331ae91f674394fb3`). On Windows without Git Bash, download all 14 `*.partXX` files manually and merge them with `copy /b pmdm_v3_oponly_step2000.pt.part00+part01+...+part13 pmdm_v3_oponly_step2000.pt`.
 
 ## Installation
 
@@ -18,7 +24,7 @@ Model weights (`pmdm_v3_oponly_step2000.pt`, 276 MB) are distributed as a binary
 pip install -r requirements.txt
 ```
 
-Download the weights from the latest release and place the file in `model/`:
+Download the weights from the latest release (see above) and place the reassembled file in `model/`:
 
 ```
 model/pmdm_v3_oponly_step2000.pt
